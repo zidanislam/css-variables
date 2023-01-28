@@ -1,0 +1,32 @@
+html{
+    background-color:#193549;
+    font-family: 'helvetica neue', sans-serif
+}
+:root{
+    --base: red;
+    --spacing: 10px;
+    --blur: 10px;
+}
+.hl{
+    color: var(--base);
+}
+body{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.controls{
+    margin-bottom: 50px;
+}
+label{
+    font-weight: 100 ;
+}
+
+.image{
+    display: block;
+    margin: auto;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+
+}
